@@ -6,7 +6,9 @@
  */
 namespace Comsolit\RappenRunden\Test\Unit\Plugin;
 
-class CalculationTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class CalculationTest extends TestCase
 {
     /**
      * @dataProvider provider

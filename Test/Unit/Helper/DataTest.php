@@ -6,7 +6,9 @@
  */
 namespace Comsolit\RappenRunden\Test\Unit\Helper;
 
-class DataTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class DataTest extends TestCase
 {
     /**
      * Helper
@@ -25,7 +27,7 @@ class DataTest extends \PHPUnit_Framework_TestCase
     /**
      *
      */
-    public function setUp()
+    public function setUp(): void
     {
         $className = '\Comsolit\RappenRunden\Helper\Data';
         $objectManager = new \Magento\Framework\TestFramework\Unit\Helper\ObjectManager($this);

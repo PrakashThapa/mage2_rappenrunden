@@ -1,5 +1,5 @@
 {
-  "name": "openstream/mage2_rappenrunden",
+  "name": "prakashthapa/mage2_rappenrunden",
   "description": "Rounds store prices to 1/20th or 1/10th - ie: to 0.05 or 0.1 of your currency",
   "keywords": ["rappenrunden", "runden", "round", "currency", "swiss", "francs", "comsolit"],
   "require": {
